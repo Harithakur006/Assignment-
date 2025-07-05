@@ -1,26 +1,25 @@
-package java4;
-interface idemo{
-	void test();
-	public final static int i=10;
-//if we dont write then it will take default by compiler.	
-}
-interface idemo2{
-	public abstract void test();
-}
- class cdemo implements idemo{
-	 public void test() {
-		
-	}
-	 public void run() {
-		 
-	 }
-}
+package java2;
 
 public class demo2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.out.println(idemo.i);
+System.out.println("java");
+           Addition(10,20); 
+	
+	
+
+	
+	
+		
 	}
 
-}// interface bydefault put public final static int on my behalf
+	private static void Addition(int i, int j) {
+		Object addition;
+		// TODO Auto-generated method stub
+		System.out.println();
+		
+		
+	}
+
+}
